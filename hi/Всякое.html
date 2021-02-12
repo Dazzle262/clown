@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Всякое для всякого</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Блог</h1>
+        <section>
+        <p>Я наконец могу нормально программировать без всяких,<br>
+        <code>ctrl + c ; ctrl + v</code> что бы вставлять букву O для кода.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <p>Хотите фокус?<br>Конечно хотите. Уменьшите окно.</p>
+            <picture>
+                <source srcset="clown.png" media="(max-width:500px)">
+                <source srcset="sadclown.png" media="(max-width:1000px)">
+                <img src="sadclown.png" alt="pepeclown" style="width: auto;">
+            </picture>
+        </section>
+
+        <hr>
+
+        <section>
+            Оцените как вам фокус.<br>
+            <p><input list="focus">
+            <datalist id="focus">
+                <option value="Хорошо"></option>
+                <option value="Средне"></option>
+                <option value="Плохо"></option>
+            </datalist>  
+            </p>
+            <button onclick="alert('Спасибо за оценку')">Отправить оценку</button>
+        </section>
+
+        <hr>
+
+        <section>
+            <button><a href="epil.html">Подарок</a></button>
+        </section>
+    </body>
+</html>
